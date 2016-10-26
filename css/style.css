@@ -1,0 +1,54 @@
+.page-header,
+.page-footer {
+    padding: 10px;
+    background-color: #eeeeee;
+    position: relative;
+}
+.page-header {
+	min-height: 150px;
+}
+.page-footer {
+	margin-top: 20px;
+}
+.header-top {
+	position: relative;
+}
+.main-nav {
+	position: absolute;
+	top: 10px;
+	left: 300px;
+}
+.main-nav li {
+	display: inline-block;
+}
+.catalog-item {
+	float: left;
+	margin-right: 35px;
+}
+.clearfix {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#cart {
+	margin-top: 20px;
+	/*position: absolute;*/
+	/*top: 25%;*/
+	/*left: 150px;*/
+}
+#cart img {
+	vertical-align: bottom;
+}
+#cart a {
+	text-decoration: none;
+	margin-left: 10px;
+	font-size: 1.2em;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #f00;
+	border-bottom: 1px dashed #f00;
+}
+#cart a:hover {
+	border-bottom: none;
+}
