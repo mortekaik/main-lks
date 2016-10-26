@@ -1,0 +1,16 @@
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+# PHP Files
+
+mail.php
+
+# Folders
+
+/fonts
+/img
+/libs
